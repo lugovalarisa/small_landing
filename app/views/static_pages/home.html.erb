@@ -1,0 +1,374 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<%= render 'layouts/header' %>
+
+<body style="height:100%; background-color:#dde0e2; width:100%; " id="bg">
+  <div  style="background-color:#eeeeee;margin: 0; -webkit-font-smoothing: antialiased;-ms-text-size-adjust:none; width:100%; padding:10px 0; ">
+    <table border="0" cellspacing="0" cellpadding="0" style="width:600px; background-color: #ffffff;" align="center" class="container" id="main">
+      <tr>
+        <td align="center" valign="top" style="padding:10px;">
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" style="background-image: url(assets/header-bg.gif); background-repeat: repeat-x; background-position: 0 0; background-color: #20232c;" >
+
+            <!-- start space -->
+            <tr>
+              <td valign="top" height="46" class="add-20">
+              </td>
+            </tr>
+            <!-- end space -->
+
+            <tr>
+              <td align="center" valign="top" width="580" class="container">
+
+                <!-- start space width --> 
+                <table class="remove" width="40" border="0" cellpadding="0" cellspacing="0" align="left" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                  <tr>
+                    <td width="40" height="2" style="font-size: 0;line-height: 0;border-collapse: collapse;">
+                      <p style="padding-left: 40px;">&nbsp;</p>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end space width -->
+                
+                <!-- logo -->
+                <table border="0" cellspacing="0" cellpadding="0"  class="container-social" align="left" style="width:178px;">
+                  <tr>
+                    <td valign="top"  align="center">
+                      <a href="http://demolink.org/" style="text-decoration:none;"><img editable src="assets/logo.png" alt="logo"  hspace="0" vspace="0" style="border:none;" width="178" editable label="Logo" /></a>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end logo -->
+
+                <!-- social icons -->
+
+                <%= render 'layouts/social_icons' %>
+                <!-- end social icons -->         
+
+              </td>
+            </tr>
+
+            <!-- start space -->
+            <tr>
+              <td valign="top" height="38" class="add-20">
+              </td>
+            </tr>
+            <!-- end space -->
+
+          </table>
+<repeater>
+          <!-- Slider -->
+          <table border="0" cellspacing="0" cellpadding="0" style="background-color: #ffffff; width:100%" class="container">
+            <tr>
+              <td valign="top" align="center">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td align="center" valign="top">
+                      <img editable src="assets/big-image.png" alt="" hspace="0" vspace="0" style="border:none;" width="580" class="container-img" />
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <!-- Slider end -->         
+          </repeater>
+          <repeater>
+          <!-- start layout-1 block -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <!-- start space -->
+            <tr>
+              <td valign="top" height="24">
+              </td>
+            </tr>
+            <!-- end space -->
+          </table>
+
+          <!-- start layout-1 title -->
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="100%" align="center" style="padding: 0; margin: 0;" valign="top">
+                <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline repeatertitle='true'>Where to go?</singleline></h2>
+              </td>
+            </tr>
+          </table>
+          <!-- end layout-1 title -->    
+  </repeater>
+  <repeater>
+          <!-- start Layout-1 container --> 
+           <table width="580" align="center" border="0" cellspacing="0" cellpadding="0" class="container" bgcolor="#ffffff" style="background-color:#ffffff;">
+        
+              <!-- start content -->
+
+              <%= render 'layouts/content' %>
+
+               <!-- end  content -->
+
+               <!--start space height --> 
+               <tr>
+                 <td height="50"></td>
+               </tr>
+               <!--end space height -->
+
+           </table>
+           <!-- end LAYOUT-1 container  --> 
+</repeater>
+<repeater>
+            
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container" style="height:1px;background-color:#dbdbdb;">
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top; line-height: 1px; font-size: 1px;" width="580"></td>
+            </tr>
+          </table>
+          <!-- start hor-line -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+            <!--start space height --> 
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!--end space height -->
+
+            <tr>
+              <td valign="top">
+                <!-- start layout title -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="580" align="center" style="padding: 0; margin: 0;" valign="top" class="container">
+                      <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline>What we offer</singleline></h2>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout title -->  
+              </td>
+            </tr>              
+
+          </table>
+</repeater>
+<repeater>
+          <!-- start LAYOUT-1 container --> 
+
+          <%= render 'layouts/part_one' %>
+
+          <!-- end layout-1 container  --> 
+</repeater>
+<repeater>
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container" style="height:1px;background-color:#dbdbdb;">
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top; line-height: 1px; font-size: 1px;" width="580"></td>
+            </tr>
+          </table>
+          <!-- start hor-line -->
+
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+
+            <!--start space height --> 
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!--end space height -->
+
+            <tr>
+              <td valign="top">
+                <!-- start layout title -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="580" align="center" style="padding: 0; margin: 0;" valign="top" class="container">
+                      <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline>Latest gallery</singleline></h2>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout title -->  
+              </td>
+            </tr>  
+
+            <!--start space height --> 
+            <tr>
+              <td height="20"></td>
+            </tr>
+            <!--end space height -->
+
+            <tr>
+              <td valign="top" style="text-align: center;">
+                <i style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Nulla facilisi. Aen nec eros. Vestibulum ante ipsum primis in fabus orci luctus et ultrices posuere. cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. Donec poam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.</multiline></i>
+              </td>
+            </tr>
+            <!--start space height --> 
+            <tr>
+              <td height="20" ></td>
+            </tr>
+            <!--end space height -->
+          </table>
+</repeater>
+<repeater>
+          <!-- start gallery container -->
+
+         <%= render 'layouts/gallery' %>
+
+</repeater>
+          <!-- end gallery container -->
+<repeater>
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container" style="height:1px;background-color:#dbdbdb;">
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top; line-height: 1px; font-size: 1px;" width="580"></td>
+            </tr>
+          </table>
+          <!-- start hor-line -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+            <!--start space height --> 
+            <tr>
+              <td height="44"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top">
+                <!-- start layout title -->
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                  <tr>
+                    <td width="580" align="center" style="padding: 0; margin: 0;" valign="top" class="container">
+                      <h2 style="text-align:center; font-size:30px; line-height:30px; color:#303541; font-weight:normal; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif; "><singleline>The best services</singleline></h2>
+                    </td>
+                  </tr>
+                </table>
+                <!-- end layout title -->  
+              </td>
+            </tr>  
+          </table>
+</repeater>
+  
+                <repeater>
+          <!-- start layout-2 container -->
+          <%= render 'layouts/part_two' %>
+
+          <!-- end layout-2 container -->
+
+                </repeater>
+
+                <repeater>
+          <!-- start layout-2 container -->
+
+         <%= render 'layouts/part_three' %>
+
+          <!-- end layout-2 container -->
+
+                </repeater>
+
+          <repeater>
+          <!-- start hor-line -->
+          <table width="580" border="0" cellspacing="0" cellpadding="0" align="center" class="container">
+            <!--start space height --> 
+            <tr>
+              <td height="54"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td style="background-color:#dbdbdb; height:1px; padding: 0; margin: 0; vertical-align: top;" width="580"></td>
+            </tr>
+            <!--start space height --> 
+            <tr>
+              <td height="54"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+          <!-- start hor-line -->
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td align="center" valign="top">
+                <img editable src="assets/email-img-1.jpg" alt="" width="580" class="container-img" />
+              </td>
+            </tr>
+            <!--start space height --> 
+            <tr>
+              <td height="40"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top">
+                <h4 style="font-size:30px;line-height:32px;color:#303541;font-weight:normal;letter-spacing:-1px; padding:0; margin: 0; font-family: Arial,Tahoma, Helvetica, sans-serif;"><singleline>Nulla facilisi enean nec eros!</singleline></h4>
+              </td>
+            </tr>
+            <!--start space height --> 
+            <tr>
+              <td height="14"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top" style="font-size: 13px; line-height: 18px; margin: 0; padding: 0; color:#3a3f50; font-family: Arial,Tahoma, Helvetica, sans-serif;">
+                <multiline>Vestibulum iaculis lacinia est. Proin dictummentum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer adipiscing  Pellentesque sed dolor. Aliquam congue fermentum nisl. Mauris accumsan nulla vel diam. Sed in lacus ut enimipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in, auctor ut, ligula. Aliquam  tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac.</multiline>
+              </td>
+            </tr>
+            <!--start space height --> 
+            <tr>
+              <td height="16"></td>
+            </tr>
+            <!--end space height -->
+            <tr>
+              <td valign="top">
+                <a href="http://demolink.org/" target="blank_" style="text-decoration:none;color:#00bec5;font-size:17px; line-height: 18px; margin: 0; padding: 0; font-family: Arial,Tahoma, Helvetica, sans-serif;"><multiline>Try it out</multiline></a>
+              </td>
+            </tr>
+            <!--start space height --> 
+            <tr>
+              <td height="36"></td>
+            </tr>
+            <!--end space height -->
+          </table>
+        </repeater>
+        </td>
+      </tr>
+    </table>
+
+<repeater>
+    <!-- start layout-3 container -->
+    <%= render 'layouts/part_four' %>
+
+    <!-- end layout-3 container -->
+  </repeater>
+<repeater>
+    <!-- start layout-4 container -->
+
+    <%= render 'layouts/part_five' %>
+
+    <!-- end layout-4 container -->
+  </repeater>
+
+    <!-- start layout-5 container -->
+
+  <%= render 'layouts/part_six' %>
+
+    <!-- end layout-5 container -->
+
+    <!-- start layout-6 container -->
+    <table border="0" cellspacing="0" cellpadding="0" style="width:600px; background-color: #ffffff;" align="center" class="container">
+      <!--start space height --> 
+      <tr>
+        <td height="28"></td>
+      </tr>
+      <!--end space height -->
+      <tr>
+        <td valign="top" style="padding:0 10px;">
+
+          <table width="100%" border="0" cellspacing="0" cellpadding="0">
+            
+          </table>
+
+        </td>
+      </tr>
+       
+    <!-- end layout-6 container -->
+    <!-- start layout-7 container -->
+    
+    <%= render 'layouts/footer' %>
+    <!-- end layout-7 container -->
+
+  </div>
+</body>
+</html>        
